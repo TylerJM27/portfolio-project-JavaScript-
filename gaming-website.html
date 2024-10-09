@@ -87,7 +87,7 @@
 
             <div class="tab-pane fade p-3" id="nav-sports" role="tabpanel"
             aria-labelledby="nav-sports-tab">
-            <!-- <link rel="stylesheet" href="sports/sports.css">
+            <link rel="stylesheet" href="sports/sports.css">
                 <div class="container">
                     <h1>Jeopardy Game</h1>
                     <div id="instructions" class="instructions">
@@ -121,12 +121,12 @@
                     </div>
                     <div id="message"></div>
                 </div>
-            <script src="sports/sports.js"></script> -->
+            <script src="sports/sports.js"></script> 
             </div>
 
             <div class="tab-pane fade p-3" id="nav-yahtzee" role="tabpanel"
             aria-labelledby="nav-yahtzee-tab">
-            <!-- <link rel="stylesheet" href="">
+            <link rel="stylesheet" href="yahtzee/yahtzee.css">
                 <div class="container">
                     <h1>Yahtzee Game (Up to 4 Players)</h1>
                     <div id="rules">
@@ -152,12 +152,22 @@
                         <button id="resetGame" style="display:none;">Reset Game</button>
                     </div>
                 </div>
-            <script src="yahtzee/yahtzee.js"></script> -->
+            <script src="yahtzee/yahtzee.js"></script> 
             </div>
 
             <div class="tab-pane fade p-3" id="nav-emoji" role="tabpanel"
             aria-labelledby="nav-emoji-tab">
-            
+                <link rel="stylesheet" href="emoji/emoji.css">
+                <div class="container">
+                    <h1>Emoji Guessing Game</h1>
+                    <p id="intro">Guess the movie or show represented by the emojis! Good luck!</p>
+                    <div id="emoji-container" class="emoji-container"></div>
+                    <input type="text" id="guess-input" placeholder="Type your guess here...">
+                    <button id="guess-button">Guess</button>
+                    <p id="message"></p>
+                    <button id="next-button" style="display:none;">Next Emoji</button>
+                </div>
+                <script src="emoji/emoji.js"></script>
             </div>
 
         </div>
