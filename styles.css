@@ -1,0 +1,14 @@
+
+body {
+    padding: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: rgb(32, 178, 90);
+}
+
+#button {
+    background: green;
+    color: white;
+}
